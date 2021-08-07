@@ -5,10 +5,12 @@ from datetime import datetime, date, timedelta
 from telegram import *
 from telegram.ext import *
 
+#PARAMETERS YOU NEED TO FILL
+bot = Bot('') # Add your bot id
+chat_id = # Add the chat id you want to send updates to
+
 #PARAMETERS
 listdis = [] #List of Districts you want to search
-bot = Bot('')
-chat_id = 
 url1 = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id="
 url2 = "&date="
 vaccine_list = ['COVAXIN', 'SPUTNIK V'] #List of Vaccines you want to search
