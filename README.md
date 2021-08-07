@@ -14,7 +14,7 @@ Conda:
 
 ### Setup
 1. You need to create your bot on telegram with bot father.
-2. Then update the variables in the starting of the code with your bot id, group or your chat id, and the list of district codes you want to search. For getting district codes you need to look at the cowin api website because I'm too lazy to make the list here.
+2. Then update the variables in the starting of the code with your bot id, group or your chat id, and the [list of district codes](https://apisetu.gov.in/public/marketplace/api/cowin) you want to search. For getting district codes you need to look at the cowin api website because I'm too lazy to make the list here.
 3. You then need to run the code and if you want me to tell how to run this code then I don't think this is for you. :)
 
 ## Okay bye and enjoy with the spam of vaccine notifications
