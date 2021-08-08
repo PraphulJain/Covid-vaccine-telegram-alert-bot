@@ -1,6 +1,9 @@
 # Covid-vaccine-telegram-alert-bot
 Python code for a telegram bot to send alerts to you when vaccine slots are available. Also has catching so will request data from the api every 5 minutes and will catch that data so that you won't get the same notifications again on that day. Although you will get a reminder with all the slots available every day at 6am and if there are 10 slots remaining.
 
+### Prerequisites
+You need to know how to create a telegram bot by using bot father and how to get it's id and get the chat id where you want to send those alerts.
+
 ### Installation
 Just clone the repository and install the telegram api package of python by:
 
